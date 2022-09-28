@@ -39,6 +39,10 @@ section {
     height: 520px;
 }
 
+section div {
+    text-align: center;
+}
+
 div#imagem {
     height: 180px;
     background-image: url(../imagens/pexels-daniel-alvarado-2419375.jpg);
@@ -71,6 +75,17 @@ div input {
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 0.432);
     font-size: 0.9em;
+}
+
+div#login {
+    display: inline-block;
+    background-color: #5f2c82;
+
+}
+
+i {
+    background-color: #5f2c82;
+    padding-left: 15px;
 }
 
 input#entrar {
