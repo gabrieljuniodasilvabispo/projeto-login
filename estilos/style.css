@@ -4,13 +4,14 @@
 
 /* 
     Paleta de Cores
-    - Verde: #49a09d
+    - Verde: #49a09d  
     - Lilás: #5f2c82
 */
 
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -23,13 +24,35 @@ body {
 }
 
 main {
-    background-color: white;
     margin: auto;
-    padding: 10px;
-    width: 80vw;
+    height: 98vh;
+    position: relative;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    height: 550px;
+    line-height: 1.7em;
 }
 
 div#imagem {
+    height: 200px;
     background-image: url(../imagens/pexels-daniel-alvarado-2419375.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+div h1 {
+    text-align: center;
+}
+
+h1, p {
+    padding: 10px;
 }

@@ -9,17 +9,33 @@
 </head>
 <body>
     <main>
-        <div id="imagem">
-            FOTO
-        </div>
+        <section>
+            <div id="imagem">
+                foto
+            </div>
 
-        <div id="formulario">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Preencha os campos abaixo para ter acesso à sua conta.</p>
-
-            <form action="login.js" method="post" autocomplete="on">
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Preencha os campos abaixo para ter acesso à sua conta.</p>
                 
-            </form>
+                <form action="login.js" method="post" autocomplete="on">
+                    
+                    <p>
+                        <label for="iemail">Usuário</label>
+                        <input type="email" name="email" id="iemail">
+                    </p>
+
+                    <p>
+                        <label for="isenha">Senha</label>
+                        <input type="password" name="senha" id="isenha">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Entrar"> <br>
+                        <input type="button" value="Esqueci a Senha">
+                    </p>
+                </form>
+        </section>
         </div>
     </main>
 </body>
