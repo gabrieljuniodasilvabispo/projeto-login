@@ -16,23 +16,26 @@
 
             <div id="formulario">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Preencha os campos abaixo para ter acesso à sua conta.</p>
+                <p id="principal">Seja bem-vindo(a) novamente. Preencha os campos abaixo para ter acesso à sua conta.</p>
                 
                 <form action="login.js" method="post" autocomplete="on">
                     
                     <p>
-                        <label for="iemail">Usuário</label>
+                        <label for="iemail"></label>
                         <input type="email" name="email" id="iemail">
                     </p>
 
                     <p>
-                        <label for="isenha">Senha</label>
+                        <label for="isenha"></label>
                         <input type="password" name="senha" id="isenha">
                     </p>
 
                     <p>
-                        <input type="submit" value="Entrar"> <br>
-                        <input type="button" value="Esqueci a Senha">
+                        <input type="submit" value="Entrar" id="entrar">
+                    </p>
+                        
+                    <p>
+                        <input type="button" value="Esqueci a Senha" id="old-password">
                     </p>
                 </form>
         </section>

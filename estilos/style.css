@@ -16,7 +16,7 @@
 
 :root {
     --cor01: #5f2c82;
-    --cor02: #49a09d;
+    --cor02: #4fa09d;
 }
 
 body {
@@ -35,9 +35,9 @@ section {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border-radius: 15px;
-    height: 550px;
-    line-height: 1.7em;
+    border-radius: 20px;
+    height: 520px;
+    line-height: 1em;
 }
 
 div#imagem {
@@ -46,13 +46,39 @@ div#imagem {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 20px 20px 0px 0px;
 }
 
 div h1 {
     text-align: center;
+    font-size: 1.5em;
+    font-weight: 790;
+    padding-top: 15px;
 }
 
 h1, p {
     padding: 10px;
+    text-indent: 10px;
 }
+
+div p#principal {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+div input {
+    width: 90%;
+    height: 37px;
+    border-radius: 10px;
+}
+
+input#entrar {
+    color: white;
+    background-color: #61c2bf;
+}
+
+input#old-password {
+    background-color: white;
+    color: var(--cor02);
+}
+
