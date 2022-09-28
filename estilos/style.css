@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* Configurações Gerais */
+
+/* 
+    Paleta de Cores
+    - Verde: #49a09d
+    - Lilás: #5f2c82
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #5f2c82;
+    --cor02: #49a09d;
+}
+
+body {
+    background-color: var(--cor01);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 80vw;
+}
+
+div#imagem {
+    background-image: url(../imagens/pexels-daniel-alvarado-2419375.jpg);
+    background-size: cover;
+}
