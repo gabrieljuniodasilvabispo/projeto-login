@@ -37,11 +37,10 @@ section {
     background-color: white;
     border-radius: 20px;
     height: 520px;
-    line-height: 1em;
 }
 
 div#imagem {
-    height: 200px;
+    height: 180px;
     background-image: url(../imagens/pexels-daniel-alvarado-2419375.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,16 +48,16 @@ div#imagem {
     border-radius: 20px 20px 0px 0px;
 }
 
-div h1 {
+h1 {
     text-align: center;
     font-size: 1.5em;
     font-weight: 790;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
-h1, p {
+p {
     padding: 10px;
-    text-indent: 10px;
+    text-align: center;
 }
 
 div p#principal {
@@ -67,18 +66,32 @@ div p#principal {
 }
 
 div input {
-    width: 90%;
+    width: 200px;
     height: 37px;
-    border-radius: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    font-size: 0.9em;
 }
 
 input#entrar {
     color: white;
-    background-color: #61c2bf;
+    background-color: #61c4c0;
+    border:1px solid #2e5e5c;
+}
+
+input#entrar:hover {
+    background-color: #4fa09d;
+    cursor: pointer;
 }
 
 input#old-password {
     background-color: white;
-    color: var(--cor02);
+    color: #2e5e5c;
+    border: 1px solid #5cb9b5;
+}
+
+input#old-password:hover {
+    background-color: #69cfcc98;
+    cursor: pointer;
 }
 
