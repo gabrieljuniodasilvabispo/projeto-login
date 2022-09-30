@@ -28,3 +28,15 @@ section > div#formulario {
     float: right;
     width: 70%;
 }
+
+div#login, div#senha {
+    width: 95%;
+}
+
+input#iemail, input#isenha {
+    width: 90%;
+}
+
+input#entrar, input#old-password {
+    width: 95%;
+}
