@@ -38,6 +38,7 @@ section {
     border-radius: 20px;
     height: 500px;
     width: 250px;
+    box-shadow: 1px 1px 3px;
 }
 
 section div {
