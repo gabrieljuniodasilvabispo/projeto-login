@@ -13,15 +13,17 @@ body {
 
 section {
     width: 80vw;
-    height: 280px;
+    height: 300px;
 }
 
-div#imagem {
-   
-    background-position-x: left;
-   background-size: contain;
+section > div#imagem {
+   float: left;
+   width: 30%;
+   height: 100%;
+   border-radius: 20px 0px 0px 20px;
 }
 
-section div {
-    text-align: right;
+section > div#formulario {
+    float: right;
+    width: 70%;
 }
