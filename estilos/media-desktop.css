@@ -9,6 +9,7 @@
 
 section {
     width: 950px;
+    height: 350px;
 }
 
 section > div#imagem {
@@ -22,4 +23,26 @@ section > div#imagem {
 section > div#formulario {
     float: left;
     width: 50%;
+}
+
+div#formulario h1 {
+    font-size: 2em;
+}
+
+div#formulario p#principal {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+div#senha, div#login {
+    width: 460px;
+}
+
+input#iemail, input#isenha {
+    width: 420px;
+}
+
+input#entrar, input#old-password {
+    width: 460px;
+    font-size: 16px;
 }

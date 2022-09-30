@@ -104,11 +104,11 @@ div#login {
 span#usuario {
     font-size: 2em;
     color: white;
-    transform: translate(-10%, 20%);
+    transform: translate(10%, 20%);
 }
 
 input#iemail {
-    transform: translate(0%, -12%);
+    transform: translate(0%, -10%);
     width: 80%;
     background-color: #98e7e5d5;
     border-radius: 10px;
@@ -125,11 +125,11 @@ div#senha {
 span#key {
     font-size: 2em;
     color: white;
-    transform: translate(-10%, 20%);
+    transform: translate(10%, 20%);
 }
 
 input#isenha {
-    transform: translate(0%, -12%);
+    transform: translate(0%, -10%);
     width: 80%;
     background-color: #98e7e5d5;
     border-radius: 10px;
