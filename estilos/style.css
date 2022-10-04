@@ -89,6 +89,16 @@ div input {
     font-size: 0.9em;
 }
 
+div#login input:focus-within {
+    background-color: white;
+    border: none;
+}
+
+div#senha input:focus-within{
+    background-color: white;
+    border: none;
+}
+
 div#login, div#senha, input {
     margin-bottom: 5px;
 }
@@ -108,10 +118,10 @@ span#usuario {
 }
 
 input#iemail {
-    transform: translate(0%, -10%);
     width: 80%;
     background-color: #98e7e5d5;
     border-radius: 10px;
+    transform: translate(0%, -10%);
 }
 
 div#senha {
@@ -158,4 +168,3 @@ input#old-password:hover {
     background-color: #69cfcc98;
     cursor: pointer;
 }
-
